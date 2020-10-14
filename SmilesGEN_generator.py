@@ -25,7 +25,7 @@ Please cite the above publication when using any part of its published code.
 """
 
 # Keras inputs
-from __future__ import print_function
+import __future__
 from keras import backend as K
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout

@@ -24,7 +24,7 @@ When using this code, please cite:
 """
 
 # Keras inputs
-from __future__ import print_function
+import __future__ 
 from keras import backend as K
 from keras.models import Model
 from keras.layers import Input,CuDNNLSTM,CuDNNGRU,Dense, Activation, Dropout,concatenate,average
